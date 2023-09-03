@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Agence Marketing</title>
+  </head>
+  <body>
+    <!--EN-TÊTE DU SITE-->
+    <header id="bandeau">
+      <img id="logo" alt="logo du site" src="images/logo.png" />
+      <h1>AGENCE MARKETING</h1>
+      <nav id="menu">
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="index.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--CONTENU DU SITE-->
+    <main>
+      <h2><q> NOS PROJETS </q></h2>
+
+      <div id="container">
+        <div class="flex_cont">
+          <div class="cartes">
+            <a href="#"
+              ><img src="https://picsum.photos/id/1006/450/300" class="radius"
+            /></a>
+            <div class="titreprojet">
+              <p>LE TITRE DU PROJET</p>
+            </div>
+          </div>
+          <div class="cartes">
+            <a href="#"
+              ><img src="https://picsum.photos/id/238/450/300" class="radius"
+            /></a>
+            <div class="titreprojet">
+              <p>LE TITRE DU PROJET</p>
+            </div>
+          </div>
+          <div class="cartes">
+            <a href="#"
+              ><img src="https://picsum.photos/id/239/450/300" class="radius"
+            /></a>
+            <div class="titreprojet">
+              <p>LE TITRE DU PROJET</p>
+            </div>
+          </div>
+          <div class="cartes">
+            <a href="#"
+              ><img src="https://picsum.photos/id/240/450/300" class="radius"
+            /></a>
+            <div class="titreprojet">
+              <p>LE TITRE DU PROJET</p>
+            </div>
+          </div>
+          <div class="cartes">
+            <a href="#"
+              ><img src="https://picsum.photos/id/241/450/300" class="radius"
+            /></a>
+            <div class="titreprojet">
+              <p>LE TITRE DU PROJET</p>
+            </div>
+          </div>
+          <div class="cartes">
+            <a href="#"
+              ><img src="https://picsum.photos/id/242/450/300" class="radius"
+            /></a>
+            <div class="titreprojet">
+              <p>LE TITRE DU PROJET</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>
+        <q> CONTACT </q>
+      </h2>
+
+      <div class="formulaire">
+        <form action="gererformulaire.php" method="post">
+          <fieldset id="border_color">
+            <legend>Remplissez ce formulaire</legend>
+            <br />
+
+            <label>Prénom :</label>
+            <input
+              type="text"
+              class="noborder"
+              placeholder="Exemple : Nicolas"
+            />
+            <br /><br />
+
+            <label>Description:</label><br />
+            <textarea cols="8" rows="2" class="noborder"></textarea>
+            <br /><br />
+
+            <label>Quelle est votre situation ?</label><br />
+            <input type="checkbox" name="Particulier"/>
+            <label for="particulier">Particulier</label><br />
+            <input type="checkbox" name="Société"/>
+            <label>Société</label>
+            <br /><br />
+
+            <label>Quel est votre budget ?</label><br />
+            <input type="radio" name="aaa" value="500"/>
+            <label for="500"> 500 euros</label><br />
+            <input type="radio" name="bbb" value="1000"/>
+            <label for="1000"> 1000 euros</label>
+            <br /><br />
+
+            <label>Quel est votre besoin ?</label><br />
+            <select id="select_box">
+              <optgroup label="Outils">
+              <option selected>App</option>
+              <option>Site</option>
+            </optgroup>
+            </select>
+            ><br /><br />
+
+            <input type="submit" value="Envoyer" />
+            <input type="reset" value="Réinitialiser" />
+            <br /><br />
+          </fieldset>
+        </form>
+      </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+      <p>2021 © Agence Marketing SERFA</p>
+    </footer>
+  </body>
+</html>

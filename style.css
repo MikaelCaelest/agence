@@ -1,0 +1,192 @@
+/* FORMULATION BODY */
+
+* {
+	box-sizing: border-box;
+   margin: 0px 0px 0px 0px;
+   text-align: center;
+}
+
+/* MODIFICATIONS HEADER */
+
+#bandeau {
+    background-color: rgb(34, 33, 33);
+    font-family: 'Roboto', sans-serif;
+    margin:auto;
+    height: 330px;
+}
+#logo {
+    width: 80px;
+    display: flex;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: -15px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+/* MODIFICATION MENU-HEADER */
+
+#menu {
+    padding : 1%;
+    margin-left: -45px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+li {
+    list-style-type: none;
+    padding: 5px;  
+}
+
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* MODIFICATION BODY*/
+
+body {
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+
+h2 {
+    font-family: 'Readex Pro', sans-serif;
+    text-align: center;
+    padding : 40px;
+}
+
+q {
+    quotes: "«" "»";
+}
+p {
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+/* MODIFICATION CONTENEUR */
+
+#container {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .flex_cont {
+     margin: auto auto 60px auto;
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 80px;
+  }
+  
+  .radius {
+     border-top-left-radius: 5%;
+     border-top-right-radius: 5%;
+  }
+
+  .cartes {
+    border-radius:5%;
+    box-shadow: 1px 15px 15px 1px rgba(0, 0, 0, 0.40);
+  }
+  
+  .cartes:hover{
+    box-shadow: 1px 15px 15px 1px rgba(255, 153, 0, 0.75);
+  }
+  
+  .titreprojet {
+     font-size: 1.1em;
+     font-weight: 300;
+     color: red;
+     padding: 20px 20px;
+  }
+  
+  .formulaire {
+     width: 80%;
+     margin: auto;
+     margin-bottom: 30px;
+     padding: 30px;
+     border: 2px solid grey;
+     border-radius: 20px;
+     font-family: 'Readex Pro', sans-serif;
+     font-size: 13px;
+  }
+
+/* MODIFICATION ASPECTS FORMULAIRE */ 
+
+.noborder {
+    border-style: none;
+    text-align: left;
+    resize: none;
+ }
+ 
+ #border_color {
+    border-color: lightgrey;
+ }
+ 
+ #select_box {
+    width: 160px;
+    text-align-last: left;
+    border-style: none;
+ }
+ 
+/* FOOTER */
+
+footer {
+    background-color: rgb(34, 33, 33);
+    margin-bottom: 0;
+    height: 50px;
+}
+
+footer p {
+    text-align: center;
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 14px;
+}
+
+
+
+
+
+
+
+@media all and (max-width:1000px) {
+
+    body {
+        align-items: center;
+    }
+
+    #vitrines div {
+        flex-direction: column;
+        padding : auto;
+    }
+}
+/* @media all and ( max-width: 500px ) {
+    
+    body {
+        align-items: center;
+    }
+
+    #vitrines div {
+        flex-direction: column;
+        padding : auto;
+    }
